@@ -1,0 +1,195 @@
+/* ================================
+GLOBAL STYLES
+================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+  color: #000000;
+  background-color: #00aaf6;
+}
+
+/* Main React App */
+.app {
+  min-height: 100vh;
+  margin: 20px 2%;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+/* ================================
+TYPOGRAPHY
+================================ */
+
+h1 {
+  font-size: 2em;
+  color: #03185d;
+  text-shadow: 2px 2px #00aaf6;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #56802b;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+h6 {
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 1.5em;
+  background-color: #56802b;
+}
+
+p {
+  color: #000000;
+  line-height: 1.5;
+}
+
+/* ================================
+LINKS / BUTTONS
+================================ */
+
+.my-button {
+  color: #03185d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.my-button:hover {
+  color: #56802b;
+  text-decoration: underline;
+}
+
+/* ================================
+HEADER / NAVBAR
+================================ */
+
+.navbar {
+  background-color: #4d545d !important;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  padding: 14px 20px !important;
+  text-align: center;
+}
+
+.navbar .nav-link:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
+
+.navbar .nav-link.active {
+  background-color: #ffffff;
+  color: #000000 !important;
+}
+
+/* ================================
+COVER IMAGE
+================================ */
+
+.image img {
+  width: 100%;
+  display: block;
+  border-top: 2px solid red;
+  border-bottom: 2px solid red;
+}
+
+/* ================================
+CONTRACTOR INFORMATION
+================================ */
+
+.contractor-info {
+  background-color: #cfd2d1;
+  padding: 2rem 10%;
+}
+
+.contractor-info h1 {
+  margin-bottom: 1rem;
+}
+
+.contractor-info h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* ================================
+FOOTER
+================================ */
+
+footer {
+  background-color: #56802b;
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+footer h3,
+footer p,
+footer a {
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+RESPONSIVE
+================================ */
+
+@media screen and (max-width: 700px) {
+  .app {
+    margin: 0;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .contractor-info {
+    padding: 2rem 1rem;
+  }
+}
