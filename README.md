@@ -36,3 +36,9 @@ Now you can check repository for updated code.
 
 START:
 cd frontend > nvm use 20 > npm run dev
+
+# update vite.config
+
+git add .
+git commit -m "Add GitHub Pages deployment"
+git push
