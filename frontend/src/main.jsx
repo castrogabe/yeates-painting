@@ -30,10 +30,7 @@ const router = createBrowserRouter(
       <Route path='testimonials' element={<Testimonials />} />
       <Route path='contact' element={<Contact />} />
     </Route>
-  ),
-  {
-    basename: '/yeates-painting',
-  }
+  )
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(

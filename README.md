@@ -63,3 +63,9 @@ git push
 git add .
 git commit -m "Fix image paths for GitHub Pages"
 git push
+
+# 7 modified: frontend/src/main.jsx and frontend/vite.config.js
+
+git add .
+git commit -m "Configure custom domain"
+git push
