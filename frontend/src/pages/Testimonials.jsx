@@ -108,7 +108,7 @@ export default function Testimonials() {
       {/* Mike and Heather Image */}
       <section className='container text-center pb-4'>
         <img
-          src='/images/MikeHeather_Fotor.png'
+          src={`${import.meta.env.BASE_URL}images/MikeHeather_Fotor.png`}
           className='img-fluid testimonials-image'
           alt='Mike and Heather Yeates'
         />

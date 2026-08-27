@@ -57,3 +57,9 @@ git push
 git add .
 git commit -m "Fix React Router basename for GitHub Pages"
 git push
+
+# 6 Fix image paths
+
+git add .
+git commit -m "Fix image paths for GitHub Pages"
+git push

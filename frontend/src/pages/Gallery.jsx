@@ -1,161 +1,161 @@
 const galleryImages = [
   {
-    image: '/images/IMG_1099.JPG',
+    image: 'images/IMG_1099.JPG',
     alt: 'Prep work',
     description: 'Prep work',
   },
   {
-    image: '/images/IMG_1100.JPG',
+    image: 'images/IMG_1100.JPG',
     alt: 'Painted high ceiling',
     description: 'Painted high ceiling',
   },
   {
-    image: '/images/IMG_1101.JPG',
+    image: 'images/IMG_1101.JPG',
     alt: 'High ceilings with windows',
     description: 'High ceilings with windows',
   },
   {
-    image: '/images/IMG_1103.JPG',
+    image: 'images/IMG_1103.JPG',
     alt: 'Hallway',
     description: 'Hallway',
   },
   {
-    image: '/images/IMG_1105.JPG',
+    image: 'images/IMG_1105.JPG',
     alt: 'Upstairs office',
     description: 'Upstairs Office',
   },
   {
-    image: '/images/IMG_1202.JPG',
+    image: 'images/IMG_1202.JPG',
     alt: 'Commercial building exterior',
     description: 'Commercial Building Exterior',
   },
   {
-    image: '/images/IMG_1204.JPG',
+    image: 'images/IMG_1204.JPG',
     alt: 'Commercial building painted',
     description: 'Commercial Building Painted',
   },
   {
-    image: '/images/IMG_1478.JPG',
+    image: 'images/IMG_1478.JPG',
     alt: 'Stucco repair',
     description: 'Stucco Repair',
   },
   {
-    image: '/images/IMG_1624.JPG',
+    image: 'images/IMG_1624.JPG',
     alt: 'Exterior painted',
     description: 'Exterior Painted',
   },
   {
-    image: '/images/IMG_1610.JPG',
+    image: 'images/IMG_1610.JPG',
     alt: 'White garage door',
     description: 'White Garage Door',
   },
   {
-    image: '/images/IMG_1628.JPG',
+    image: 'images/IMG_1628.JPG',
     alt: 'Painted garage door',
     description: 'Painted Garage Door',
   },
   {
-    image: '/images/IMG_1614.JPG',
+    image: 'images/IMG_1614.JPG',
     alt: 'Patio before',
     description: 'Patio Before',
   },
   {
-    image: '/images/IMG_1623.JPG',
+    image: 'images/IMG_1623.JPG',
     alt: 'Patio after',
     description: 'Patio After',
   },
   {
-    image: '/images/IMG_1712.JPG',
+    image: 'images/IMG_1712.JPG',
     alt: 'Patio deck before',
     description: 'Patio Deck Before',
   },
   {
-    image: '/images/IMG_1733.JPG',
+    image: 'images/IMG_1733.JPG',
     alt: 'Patio deck after',
     description: 'Patio Deck After',
   },
   {
-    image: '/images/IMG_1800.JPG',
+    image: 'images/IMG_1800.JPG',
     alt: 'Painted back yard',
     description: 'Painted Back Yard',
   },
   {
-    image: '/images/IMG_2228.jpg',
+    image: 'images/IMG_2228.jpg',
     alt: 'Front of house before',
     description: 'Front Of House Before',
   },
   {
-    image: '/images/IMG_2236.jpg',
+    image: 'images/IMG_2236.jpg',
     alt: 'Painted front of house',
     description: 'Painted Front Of House',
   },
   {
-    image: '/images/IMG_2559.jpg',
+    image: 'images/IMG_2559.jpg',
     alt: 'Bedroom before',
     description: 'Bedroom Before',
   },
   {
-    image: '/images/IMG_2560.jpg',
+    image: 'images/IMG_2560.jpg',
     alt: 'Bedroom after',
     description: 'Bedroom After',
   },
   {
-    image: '/images/IMG_2123.jpg',
+    image: 'images/IMG_2123.jpg',
     alt: 'Painted interior',
     description: 'Painted Interior',
   },
   {
-    image: '/images/IMG_2348.jpg',
+    image: 'images/IMG_2348.jpg',
     alt: 'Gate Church kids ministry',
     description: 'Gate Church Kids Ministry',
   },
   {
-    image: '/images/IMG_1110.JPG',
+    image: 'images/IMG_1110.JPG',
     alt: 'House before',
     description: 'House Before',
   },
   {
-    image: '/images/IMG_1150.JPG',
+    image: 'images/IMG_1150.JPG',
     alt: 'House after',
     description: 'House After',
   },
   {
-    image: '/images/IMG_0960.jpeg',
+    image: 'images/IMG_0960.jpeg',
     alt: 'Street view',
     description: 'Street View',
   },
   {
-    image: '/images/IMG_0962.JPG',
+    image: 'images/IMG_0962.JPG',
     alt: 'Street view after',
     description: 'Street View After',
   },
   {
-    image: '/images/IMG_0977.jpeg',
+    image: 'images/IMG_0977.jpeg',
     alt: 'Working',
     description: 'Working',
   },
   {
-    image: '/images/IMG_0978.jpeg',
+    image: 'images/IMG_0978.jpeg',
     alt: 'At work',
     description: 'At Work',
   },
   {
-    image: '/images/IMG_0973.jpeg',
+    image: 'images/IMG_0973.jpeg',
     alt: 'Painted exterior',
     description: 'Painted Exterior',
   },
   {
-    image: '/images/IMG_0957.jpeg',
+    image: 'images/IMG_0957.jpeg',
     alt: 'Painted exterior',
     description: 'Painted Exterior',
   },
   {
-    image: '/images/IMG_0982.jpeg',
+    image: 'images/IMG_0982.jpeg',
     alt: 'Painted exterior',
     description: 'Painted Exterior',
   },
   {
-    image: '/images/IMG_0981.jpeg',
+    image: 'images/IMG_0981.jpeg',
     alt: 'Painted after',
     description: 'Painted After',
   },
@@ -203,28 +203,34 @@ export default function Gallery() {
           </h2>
 
           <div className='row g-4'>
-            {galleryImages.map((item, index) => (
-              <div
-                className='col-12 col-sm-6 col-lg-3'
-                key={`${item.image}-${index}`}
-              >
-                <div className='gallery-card'>
-                  <a
-                    href={item.image}
-                    target='_blank'
-                    rel='noopener noreferrer'
-                  >
-                    <img
-                      src={item.image}
-                      alt={item.alt}
-                      className='img-fluid'
-                    />
-                  </a>
+            {galleryImages.map((item, index) => {
+              const imageUrl = `${import.meta.env.BASE_URL}${item.image}`;
 
-                  <div className='gallery-description'>{item.description}</div>
+              return (
+                <div
+                  className='col-12 col-sm-6 col-lg-3'
+                  key={`${item.image}-${index}`}
+                >
+                  <div className='gallery-card'>
+                    <a
+                      href={imageUrl}
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <img
+                        src={imageUrl}
+                        alt={item.alt}
+                        className='img-fluid'
+                      />
+                    </a>
+
+                    <div className='gallery-description'>
+                      {item.description}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* Gallery Description */}

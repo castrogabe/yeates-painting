@@ -4,7 +4,7 @@ export default function Home() {
       {/* Cover Image */}
       <div className='image'>
         <img
-          src='/images/yeatespainting.png'
+          src={`${import.meta.env.BASE_URL}images/yeatespainting.png`}
           className='img-fluid'
           width='100%'
           alt='Yeates Painting'
@@ -53,7 +53,7 @@ export default function Home() {
           <div className='col-lg-6'>
             <img
               className='img-fluid'
-              src='/images/mikeHeather_Fotor.jpg'
+              src={`${import.meta.env.BASE_URL}images/mikeHeather_Fotor.jpg`}
               alt='Mike and Heather Yeates'
             />
           </div>
