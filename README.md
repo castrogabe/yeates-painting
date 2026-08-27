@@ -42,3 +42,18 @@ cd frontend > nvm use 20 > npm run dev
 git add .
 git commit -m "Add GitHub Pages deployment"
 git push
+
+# Add Github pages workflow in root
+
+new file: .github/workflows/deploy.yml
+
+git commit -m "Add GitHub Pages workflow"
+git push
+
+# 4 git commit -m "Add GitHub Pages workflow"
+
+# 5 update main.jsx
+
+git add .
+git commit -m "Fix React Router basename for GitHub Pages"
+git push
